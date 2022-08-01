@@ -1,10 +1,11 @@
-variable "tags" {
-  description = "Value of the Name tag for the EC2 instance"
-  type        = string
-  default     = "ExampleAppServerInstance"  
+variable "bucket_name" {
+    type = string
+   // default = "test-bucket-tilldate"
 }
-variable "availability_zone" {
-  description = "availablity zone "
-  type        = string
-  default     = "ap-south-1a" 
+
+variable "tfstate" {
+    type = string
+    default = "tfstate_files"
+    description = "Folder for terraform state files"
+  
 }
