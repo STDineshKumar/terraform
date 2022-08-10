@@ -1,0 +1,7 @@
+#!/bin/bash
+
+NAME=$1
+RESOURCE_TYPE=$2
+STATUS=$3
+
+echo '${NAME} ${RESOURCE_TYPE} ${STATUS}'
